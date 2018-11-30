@@ -5,3 +5,10 @@ function isTriangle(a, b, c) {
     return false;
   }
 }
+function isEquilateral(a, b, c) {
+  if (a == b && b == c && c == a) {
+    return true;
+  } else {
+    return false;
+  }
+}
