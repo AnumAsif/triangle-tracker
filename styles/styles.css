@@ -6,3 +6,10 @@ body {
   /*font-family: 'Acme', sans-serif;*/
   color: #154360  ;
 }
+h1{
+  font-size:50px;
+}
+p{
+
+  font-size: 25px;
+}
