@@ -13,3 +13,9 @@ p{
 
   font-size: 25px;
 }
+
+button{
+  /*font-family: 'Acme', sans-serif;*/
+  color: #154360  ;
+  font-size: 30px;
+  border-radius: 25%;
