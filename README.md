@@ -8,21 +8,29 @@ This application is developd to help the Maths Students to calculate the type of
 ## Specifications
 ### The website:
 1. displays an error message if  no value is entered
-   - INPUT:" " OUTPUT:"Enter sides of a triangle"
+   - INPUT:" " 
+   - OUTPUT:"Enter sides of a triangle"
 2. displays an error message for alphabetical characters
-   - INPUT:"Hello" OUTPUT:"Put sides of a triangle"
+   - INPUT:"Hello" 
+   - OUTPUT:"Put sides of a triangle"
 3. displays an error message if only one length is entered
-   - INPUT:23 OUTPUT:"Put three lengths seperated by comma ','"
+   - INPUT:23 
+   - OUTPUT:"Put three lengths seperated by comma ','"
 4. displays an error message if only two lengths are entered
-   - INPUT:23,45 OUTPUT:"Put three lengths seperated by comma ','"
+   - INPUT:23,45 
+   - OUTPUT:"Put three lengths seperated by comma ','"
 5. checks the condition (sum of two side of a triangle is less than or equal to the 3rd side) for all the possible combinations and displays a message if true.
-   - INPUT:5,8,3 OUTPUT:"Not a triangle" 
+   - INPUT:5,8,3 
+   - OUTPUT:"Not a triangle" 
 6. Checks if all the three entered values are same, displays a message that its an eqilateral triangle
-   - INPUT:5,5,5 OUTPUT:"Equilateral Triangle"
+   - INPUT:5,5,5 
+   - OUTPUT:"Equilateral Triangle"
 7. Checks if any two entered values are same, displays a message that its an isosceles triangle
-   - INPUT:4,4,5 OUTPUT:"Isosceles Triangle"
+   - INPUT:4,4,5 
+   - OUTPUT:"Isosceles Triangle"
 8. Checks if all the entered values are different, displays a message that it's a scalene triangle
-   - INPUT:4,5,6 OUTPUT:"Scalene Triangle"
+   - INPUT:4,5,6 
+   - OUTPUT:"Scalene Triangle"
 ### Development
 Want to contribute? Great!
 
