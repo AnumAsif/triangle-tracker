@@ -12,3 +12,17 @@ function isEquilateral(a, b, c) {
     return false;
   }
 }
+function isIsosceles(a, b, c) {
+  if (a == b || b == c || c == a) {
+    return true;
+  } else {
+    return false;
+  }
+}
+function isScalene(a, b, c) {
+  if (a != b && b != c && c != a) {
+    return true;
+  } else {
+    return false;
+  }
+}
