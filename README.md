@@ -2,7 +2,7 @@
 #### It calculates what type of a triangle will be formed with the provided sides of a triangle, 30/11/2018.
 #### By **ANUM ASIF**
 ## Description
-This application is developd to help the Maths Students to calculate the type of a triangle. In general, there are 3 types of a triangle i.e ISOSCELES, SCALENE and EQILATERAL. You can also use it to check whether the 3 lengths you have in mind will even make a triangle or not. Because this is the first thing it checks when you enter the required 3 values. Please note that it is developed only for numerical date.
+This application is developd to help the Maths Students to calculate the types of a triangle. In general, there are 3 types of a triangle i.e ISOSCELES, SCALENE and EQILATERAL. You can also use it to check whether the 3 lengths you have in mind will even make a triangle or not. Because this is the first thing it checks when you enter the required 3 values. Please note that it is developed only for numerical data.
 ## Setup/Installation Requirements
 *Web Browser*
 ## Specifications
