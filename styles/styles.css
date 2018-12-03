@@ -19,3 +19,9 @@ button{
   color: #154360  ;
   font-size: 30px;
   border-radius: 25%;
+}
+#myDiv img {
+  
+  width: 500px;
+  height: 500px;
+}
