@@ -1,4 +1,5 @@
 function evaluateSides() {
+  var x = document.getElementById("myDiv");
   document.getElementById('answerID').innerHTML = "";
   document.getElementById("triangleTypeID").innerHTML = "";
   var lengths = prompt("Enter lengths of a triangle to check it's type, seperated by a comma");
@@ -22,8 +23,11 @@ function evaluateSides() {
       } else {
         document.getElementById("triangleTypeID").innerHTML = "It's a SCALENE TRIANGLE!!";
       }
+      x.style.display = "block";
+
     } else {
       document.getElementById('answerID').innerHTML = "It is not a triangle!!";
+      x.style.display = "none";
     }
   }
 } /*-----------------------------------------------------------------------------------------------------------*/
