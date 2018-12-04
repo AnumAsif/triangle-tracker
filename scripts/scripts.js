@@ -30,7 +30,8 @@ function evaluateSides() {
       x.style.display = "none";
     }
   }
-} /*-----------------------------------------------------------------------------------------------------------*/
+}
+/*-------------------------------function definations----------------------------------------------------------------------------*/
 function isTriangle(a, b, c) {
   if ((a + b > c) && (b + c > a) && (c + a > b)) {
     return true;
@@ -38,6 +39,7 @@ function isTriangle(a, b, c) {
     return false;
   }
 }
+
 function isEquilateral(a, b, c) {
   if (a == b && b == c && c == a) {
     return true;
@@ -45,6 +47,7 @@ function isEquilateral(a, b, c) {
     return false;
   }
 }
+
 function isIsosceles(a, b, c) {
   if (a == b || b == c || c == a) {
     return true;
